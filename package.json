@@ -2,6 +2,7 @@
   "name": "RN3DWorldExplorer",
   "version": "0.0.1",
   "private": true,
+  "author": {"name": "Pascal Clanget"},
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -9,6 +10,8 @@
     "start": "react-native start",
     "test": "jest"
   },
+  "keywords": ["ar", "vr", "arcore", "sceneview", "react native", "cardboard"],
+  "repository": {"url": "https://github.com/Gh05d/RN3DWorldExplorer", "type": "github"},
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.72.7"
