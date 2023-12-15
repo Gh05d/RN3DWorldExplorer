@@ -32,10 +32,7 @@ const App: React.FC<{}> = () => (
         <Section title="AR" description="Render the native AR module">
           <Button
             title="Show AR"
-            onPress={async () => {
-              const res = await ARModule.showAR();
-              console.log(res);
-            }}
+            onPress={async () => await ARModule.showAR("AR-model.glb")}
           />
         </Section>
       </View>

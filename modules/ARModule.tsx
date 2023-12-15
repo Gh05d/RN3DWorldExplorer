@@ -2,7 +2,7 @@ import { NativeModules } from "react-native";
 const { ARModule } = NativeModules;
 
 interface ARModuleInterface {
-  showAR(): Promise<string>;
+  showAR(path: string): Promise<void>;
 }
 
 export default ARModule as ARModuleInterface;
