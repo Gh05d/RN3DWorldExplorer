@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RN3DWorldExplorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RN3DWorldExplorerTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-RN3DWorldExplorer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RN3DWorldExplorer.a */; };
+		0F18B28F2B409A4C006DA73F /* pancakes.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 0F18B28E2B409A4C006DA73F /* pancakes.usdz */; };
 		0FCEDC782B34CD520084BDDF /* RCTARModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEDC772B34CD520084BDDF /* RCTARModule.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -31,6 +32,7 @@
 		00E356EE1AD99517003FC87E /* RN3DWorldExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RN3DWorldExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RN3DWorldExplorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RN3DWorldExplorerTests.m; sourceTree = "<group>"; };
+		0F18B28E2B409A4C006DA73F /* pancakes.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pancakes.usdz; sourceTree = "<group>"; };
 		0FCEDC762B34CD1C0084BDDF /* RCTARModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTARModule.h; sourceTree = "<group>"; };
 		0FCEDC772B34CD520084BDDF /* RCTARModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTARModule.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RN3DWorldExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RN3DWorldExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +88,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0F18B28D2B409971006DA73F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F18B28E2B409A4C006DA73F /* pancakes.usdz */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* RN3DWorldExplorer */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +129,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				0F18B28D2B409971006DA73F /* Resources */,
 				0FCEDC772B34CD520084BDDF /* RCTARModule.m */,
 				0FCEDC762B34CD1C0084BDDF /* RCTARModule.h */,
 				13B07FAE1A68108700A75B9A /* RN3DWorldExplorer */,
@@ -247,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F18B28F2B409A4C006DA73F /* pancakes.usdz in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);

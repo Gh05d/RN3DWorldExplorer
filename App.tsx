@@ -8,6 +8,7 @@ import {
   Text,
   View,
   Button,
+  Platform,
 } from "react-native";
 import ARModule from "./modules/ARModule";
 
@@ -32,7 +33,9 @@ const App: React.FC<{}> = () => (
         <Section title="AR" description="Render the native AR module">
           <Button
             title="Show AR"
-            onPress={async () => await ARModule.showAR("AR-model.glb")}
+            onPress={async () =>
+              await ARModule.showAR(Platform.OS == "ios" ? "pancakes" : "AR-model.glb")
+            }
           />
         </Section>
       </View>
